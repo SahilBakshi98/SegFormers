@@ -35,11 +35,11 @@ e.g. -
 
 python3 train_baseline.py deu.rst.pcc
 
-#Obtaining the scores on the dev set
+# Obtaining the scores on the dev set
 
 python3 ../../utils/seg_eval.py ../../data/deu.rst.pcc/deu.rst.pcc_dev.tok ./outputs/deu.rst.pcc_dev.preds
 
-#Obtaining the scores on the test set
+# Obtaining the scores on the test set
 
 python3 ../../utils/seg_eval.py ../../data/deu.rst.pcc/deu.rst.pcc_test.tok ./outputs/deu.rst.pcc_test.preds
 ```
@@ -87,11 +87,11 @@ e.g. -
 
     python3 train_final_conllu.py deu.rst.pcc
 
-    #Obtaining the scores on the dev set
+    # Obtaining the scores on the dev set
 
     python3 ../../utils/seg_eval.py ../../data/deu.rst.pcc/deu.rst.pcc_dev.conllu ./outputs/deu.rst.pcc_dev.conllu.preds
 
-    #Obtaining the scores on the test set
+    # Obtaining the scores on the test set
 
     python3 ../../utils/seg_eval.py ../../data/deu.rst.pcc/deu.rst.pcc_test.conllu ./outputs/deu.rst.pcc_test.conllu.preds
     ```
@@ -102,11 +102,11 @@ e.g. -
 
     python3 train_final_tok.py deu.rst.pcc
 
-    #Obtaining the scores on the dev set
+    # Obtaining the scores on the dev set
 
     python3 ../../utils/seg_eval.py ../../data/deu.rst.pcc/deu.rst.pcc_dev.tok ./outputs/deu.rst.pcc_dev.tok.preds
 
-    #Obtaining the scores on the test set
+    # Obtaining the scores on the test set
 
     python3 ../../utils/seg_eval.py ../../data/deu.rst.pcc/deu.rst.pcc_test.tok ./outputs/deu.rst.pcc_test.tok.preds
     ```
