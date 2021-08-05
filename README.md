@@ -53,7 +53,7 @@ You can edit `batch.sh` to add more datasets if needed.
 
 ## Code for SegFormers
 
-**code/Tranformers** contains the code for our main model, SegFormers.
+**code/Transformers** contains the code for our main model, SegFormers.
 
 **Prerequisite packages and modules -**
 
