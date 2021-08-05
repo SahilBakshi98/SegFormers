@@ -27,7 +27,7 @@ Install all packages using the `pip3 install` command
 The model is run using the command `python3 train_baseline.py [dataset name]`.  <br>
 The dataset name has to be provided in the format `LANG.FRAMEWORK.CORPUS`, e.g. `eng.rst.gum`.  <br>
 The model stores the output prediction files in the **./outputs** folder. <br>
-Scores are obtained by running the official scores `seg_eval.py` from the utils directory.  <br>
+Scores are obtained by running the official scorer `seg_eval.py` from the utils directory.  <br>
 
 e.g. -
 ```
@@ -72,13 +72,13 @@ For training the model on the **.conllu** files - <br>
 The model is run using the command `python3 train_final_conllu.py [dataset name]`. <br> 
 The dataset name has to be provided in the format `LANG.FRAMEWORK.CORPUS`, e.g. `eng.rst.gum`. <br> 
 The model stores the output prediction files in the **./outputs** folder. <br> 
-Scores are obtained by running the official scores `seg_eval.py` from the utils directory.
+Scores are obtained by running the official scorer `seg_eval.py` from the utils directory.
 
 For training the model on the **.tok** files - <br>
 The model is run using the command `python3 train_final_tok.py [dataset name]`. <br> 
 The dataset name has to be provided in the format `LANG.FRAMEWORK.CORPUS`, e.g. `eng.rst.gum`. <br> 
 The model stores the output prediction files in the **./outputs** folder. <br> 
-Scores are obtained by running the official scores `seg_eval.py` from the utils directory. 
+Scores are obtained by running the official scorer `seg_eval.py` from the utils directory. 
 
 e.g. - 
 * For the **.conllu** files -
