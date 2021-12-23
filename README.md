@@ -4,9 +4,9 @@ Repository for our systems submitted to the DisRPT 2021 Shared Task for Discours
 
 ## Directory Structure
 
-**code** folder contains the source code for the systems submitted by us. <br>
-**data** folder contains the official datasets for all 16 languages provided by the organizers. (Had to be removed as we cannot put the restored text publicly online for the licensed datasets  <br>
-**utils** folder contains the official scorer provided by the organizers. <br>
+**code** folder contains the source code for the systems submitted by us. <br><br>
+**data** folder contains the official datasets for all 16 languages provided by the organizers. (Had to be removed as we cannot put the restored text publicly online for the licensed datasets)  <br><br>
+**utils** folder contains the official scorer provided by the organizers. <br><br>
 
 ## Code for the baseline model
 
